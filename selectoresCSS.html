@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores CSS</title>
+</head>
+
+<body>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: larger;
+        }
+        h6 {
+            color: tomato;
+            text-align: center;
+        }
+
+        #parrafo-1 {
+            text-align: center;
+            color: blue;
+        }
+
+        .titulo-con-clases {
+            font-size: 200%;
+            background-color: aqua;
+            text-align: center;
+        }
+
+        p.centrar{
+            text-align: center;
+            color: brown;
+        }
+
+        h4,h5{
+            text-align: center;
+            color: steelblue;
+        }
+
+    </style>
+
+
+
+    <h1>Selectores CSS</h1>
+    <p>Se utilizan para encontrar o seleccionar los elemntos HTML que desea diseñar</p>
+
+    <h2>Selector de elementos CSS</h2>
+    <p>todos los elementos con &lt;h6&gt; de la pagina se veran afectados con el estilo que le pongamos </p>
+    <h6>Este se vera afectado por el selector de elementos CSS</h6>
+
+    <hr>
+
+    <h2>Selector de elemento de ID en CSS</h2>
+    <p>Este selector usa el atributo id de un elemento HTML seleccionado, tener en cuenta que solo puede existir la identificacion de un elemento dentro de la pagina</p>
+    <p>Procurar ocupar id solo cuando queremos destacar algo importante de la pagina web dandole estilos, ya que esa seria como su funcionalidad destacar de los demas</p>
+
+    <p id="parrafo-1">Este es un parrafo con id</p>
+
+    <hr>
+
+    <h2>Selectores de clases CSS</h2>
+    <p>Al igual que con los ID este es con clases y en lugar de llamarlo con # es con un .</p>
+
+    <h3 class="titulo-con-clases">Este es un titulo con clases CSS</h3>
+
+    <hr>
+
+    <h2>Elementos HTML seguidos de clases o ID</h2>
+    <p>con este metodo podemos aplicar estilos a todos las <b>&lt;p&gt;</b> que contengan la clase cualesquiera que asignemos </p>
+
+    <p class="centrar">Aplicando estilos a las etiquetas &lt;p&gt; que tengan la clase <b>centrar</b></p>
+    <span class="centrar">A esta etiqueta no le aplica el estilo porque esta creada solo para las etiquetas p con dicha clase </span>
+
+    <hr>
+
+    <h2>Selector universal CSS</h2>
+    <p>Con este selector seleccionamos todo los elementos del HTML de la pagina</p>
+    <p>Todos los textos se agrandaran con el selector y estilo aplicado con *</p>
+
+
+    <hr>
+
+    <h2>Selector de agrupacion en CSS</h2>
+    <p>Funciona para agrupar varias etiquetas HTML y asi tener un codigo mas limpio sin necesidad de cambiarle uno por uno sino todos a la vez</p>
+
+    <h4>Texto 1</h4>
+    <h5>Texto 2</h5>
+
+
+
+
+</body>
+
+</html>
